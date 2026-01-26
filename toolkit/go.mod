@@ -1,3 +1,3 @@
-module github.com/mariolazzari/go-module/toolkit
+module github.com/tsawler/toolkit
 
-go 1.25.6
+go 1.18
