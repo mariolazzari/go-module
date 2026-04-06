@@ -1,16 +1,19 @@
 {
-  "folders": [
-    {
-      "path": "toolkit",
-    },
-    {
-      "path": "app",
-    },
-    {
-      "path": "app-upload",
-    },
-    {
-      "path": "app-dir",
-    },
-  ],
+	"folders": [
+		{
+			"path": "toolkit"
+		},
+		{
+			"path": "app"
+		},
+		{
+			"path": "app-upload"
+		},
+		{
+			"path": "app-dir"
+		},
+		{
+			"path": "app-slug"
+		}
+	]
 }

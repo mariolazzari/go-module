@@ -30,13 +30,13 @@ func routes() http.Handler {
 }
 
 func uploadFiles(w http.ResponseWriter, r *http.Request) {
-	if r.Method != "POST" {
+	if r. Method != "POST" {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
 
 	t := toolkit.Tools{
-		MaxFileSize:      1024 * 1024 * 1024,
+		MaxFileSize: 1024 * 1024 * 1024,
 		AllowedFileTypes: []string{"image/jpeg", "image/png", "image/gif"},
 	}
 
@@ -55,13 +55,13 @@ func uploadFiles(w http.ResponseWriter, r *http.Request) {
 }
 
 func uploadOneFile(w http.ResponseWriter, r *http.Request) {
-	if r.Method != "POST" {
+	if r. Method != "POST" {
 		http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
 		return
 	}
 
 	t := toolkit.Tools{
-		MaxFileSize:      1024 * 1024 * 1024,
+		MaxFileSize: 1024 * 1024 * 1024,
 		AllowedFileTypes: []string{"image/jpeg", "image/png", "image/gif"},
 	}
 
