@@ -167,9 +167,9 @@ func TestTools_CreateDirIfNotExist(t *testing.T) {
 }
 
 var slugTests = []struct {
-	name          string
-	s             string
-	expected      string
+	name string
+	s string
+	expected string
 	errorExpected bool
 }{
 	{name: "valid string", s: "now is the time", expected: "now-is-the-time", errorExpected: false},
